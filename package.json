@@ -1,6 +1,6 @@
 {
   "name": "s3-cli-downloader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "easily download files from s3 bucket to local machine using aws sdk.",
   "main": "index.js",
   "bin": {

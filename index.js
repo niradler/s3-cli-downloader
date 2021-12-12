@@ -40,8 +40,10 @@ const main = async ({ target, name, bucketName, key, region, profile }) => {
     };
     const res = await downloadFile(fileName, params, region);
     console.log("finished", res);
+    process.exit(0);
   } catch (error) {
     console.error(error);
+    process.exit(1);
   }
 };
 
