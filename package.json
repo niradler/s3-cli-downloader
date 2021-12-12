@@ -1,10 +1,10 @@
 {
   "name": "s3-cli-downloader",
   "version": "0.0.2",
-  "description": "",
+  "description": "easily download files from s3 bucket to local machine using aws sdk.",
   "main": "index.js",
   "bin": {
-    "s3-cli-downloader": "./index.js"
+    "s3-cli-downloader": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +20,14 @@
     "aws-sdk": "^2.585.0",
     "graceful-fs": "^4.2.3",
     "yargs": "^15.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niradler/s3-cli-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niradler/s3-cli-downloader/issues"
+  },
+  "homepage": "https://github.com/niradler/s3-cli-downloader#readme"
 }
